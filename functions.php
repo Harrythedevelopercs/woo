@@ -67,4 +67,5 @@ function harry_order_items( $item, $cart_item_key, $values, $order ) {
 add_action( 'woocommerce_checkout_create_order_line_item', 'harry_order_items', 10, 4 );
 
 
-include('inc/extraprice_checkboc/index.php');
+//include('inc/extraprice_checkboc/index.php');
+include('inc/extraprice_checkboc/pricebyvalue/index.php');
